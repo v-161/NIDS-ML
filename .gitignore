@@ -33,7 +33,6 @@ logs/
 .env
 .env.local
 .env.*.local
-.env.example
 
 # Gemini API keys
 *api_key*
