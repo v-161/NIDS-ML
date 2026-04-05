@@ -1,3 +1,4 @@
+
 # Python
 __pycache__/
 *.py[cod]
@@ -29,6 +30,12 @@ Thumbs.db
 logs/
 *.log
 
-# Environment
+# Environment variables (contains sensitive keys)
 .env
 .env.local
+.env.*.local
+
+# Gemini API keys
+*api_key*
+*secret*
+*.key
