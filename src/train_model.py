@@ -191,6 +191,7 @@ best_precision = 0
 
 print("\nThreshold Analysis:")
 print("-"*50)
+best_f1 = 0
 for thresh in thresholds:
     preds = (rf_probs >= thresh).astype(int)
     recall = recall_score(y_test_binary, preds)

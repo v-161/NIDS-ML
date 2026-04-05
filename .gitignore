@@ -29,12 +29,6 @@ Thumbs.db
 logs/
 *.log
 
-# Environment variables (contains sensitive keys)
+# Environment
 .env
 .env.local
-.env.*.local
-
-# Gemini API keys
-*api_key*
-*secret*
-*.key
